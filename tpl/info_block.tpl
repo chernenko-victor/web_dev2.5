@@ -1,0 +1,1 @@
+<br /><br /><strong>Info block</strong>

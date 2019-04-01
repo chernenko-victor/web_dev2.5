@@ -1,0 +1,1 @@
+<strong>Partit block</strong><br /><br />{content}

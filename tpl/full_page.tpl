@@ -1,0 +1,1 @@
+<!-- full_page.tpl -->

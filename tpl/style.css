@@ -1,0 +1,67 @@
+html, body 
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+table, td, div 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+#catalog A 
+{
+  color: #666; 
+}
+
+#catalog A:hover 
+{
+  color: #1fa0e2; 
+}
+
+#catalog DIV 
+{
+  /* width: 210px; */ /* Ширина */
+  margin: 0 5px 15px 0; /* Отступы */
+  text-align: center; /* Выравнивание по центру */
+  display: inline-block; /* Строчно-блочный элемент */
+  vertical-align: top; /* Выравнивание по верхнему краю */
+  /* border: 1px solid red; */
+}
+
+#catalog P 
+{ 
+  margin: 0 5px; 
+}
+
+#catalog SPAN 
+{ 
+  color: #ccc; font-size: 0.8em; 
+}
+
+.inline_block
+{
+  /* border: 1px solid #00FFFF; */
+  border: 1px solid black;
+}
+
+.login_form
+{
+  width: 210px;
+}
+
+#group_tbl td
+{
+  border: 1px solid black;
+}
