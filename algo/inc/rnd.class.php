@@ -3,8 +3,10 @@
 
 include_once("../inc/util.class.php");
 include_once("config.inc.php");
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/stochastic.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/combinatoric.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/stochastic.class.php");
+include_once("stochastic.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/combinatoric.class.php");
+include_once("combinatoric.class.php");
 
 class Rnd
 {

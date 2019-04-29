@@ -23,7 +23,8 @@ $shCurrentSession->Dispatch();
 
 
 $aContentNew = array(
-	"body" => $sOut
+	"body" => $sOut,
+	"NextRefreshTime" => $sSrv->GetNextRefreshTimePub()
 );
 //print_r($aContentNew);
 include_once("./inc/show_page.class.php");

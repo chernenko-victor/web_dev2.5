@@ -1,11 +1,14 @@
 ﻿<?php
 //assoc2musicXML.class.php
 
+$INC_DIR = $_SERVER["DOCUMENT_ROOT"]."\\dev2.5\\inc\\";
+//$ALGO_INC_DIR = $_SERVER["DOCUMENT_ROOT"]."\\dev2.5\\algo\\inc\\";
 include_once("transformation.class.php");
 //include_once("../inc/util.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/inc/util.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/inc/assoc2XML.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/set.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/inc/util.class.php");
+include_once($INC_DIR."util.class.php");
+include_once($INC_DIR."assoc2XML.class.php");
+include_once("set.class.php");
 
 class Assoc2MusicXML extends Transformation
 {

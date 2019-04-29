@@ -1,10 +1,12 @@
 <?php
 //generative grammar class
 
+$INC_DIR = $_SERVER["DOCUMENT_ROOT"]."\\dev2.5\\inc\\";
 include_once("options.inc.php");
 include_once("storage.class.php");
 //include_once("util.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/inc/util.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/inc/util.class.php");
+include_once($INC_DIR."util.class.php");
 
 class GenerativeGrammar
 {

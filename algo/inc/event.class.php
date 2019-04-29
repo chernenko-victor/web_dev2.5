@@ -1,5 +1,6 @@
 ﻿<?php
-include_once("C:/Program Files/wamp/www/dev2.3/inc/util.class.php");
+$INC_DIR = $_SERVER["DOCUMENT_ROOT"]."\\dev2.5\\inc\\";
+include_once($INC_DIR."util.class.php");
 
 abstract class Event
 {

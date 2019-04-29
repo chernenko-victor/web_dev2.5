@@ -49,6 +49,7 @@ class Server
   private /* SessionHandle */ $shSession;
   private /* array(int) */$aiRefreshTimes;
   private /* Utility */ $uUtility;
+  private /* String */ $sNextRefreshTime;
     
   public function /* Server */ __construct(/* class SessionHandle */ &$shCurrentSession, /* class Message */ $mInput, /* class String */ &$sOut) 
   {
@@ -104,8 +105,9 @@ class Server
         /* class String */ $sPartitBlock = $this->GetPartitBlock($pClientPermission);
         $aPagePart[_PARTIT_BLOCK_NAME] = $sPartitBlock;
       
-        /* class String */ $sNextRefreshTime = $this->GetNextRefreshTime($pClientPermission);
-        $aPagePart[_NEXT_TIME_REFRESH] = $sNextRefreshTime;
+        /* class String */ $this->sNextRefreshTime = $this->GetNextRefreshTime($pClientPermission);
+        $aPagePart[_NEXT_TIME_REFRESH] = $this->sNextRefreshTime;
+		//echo "<!-- \$this->NextRefreshTime = ".$this->sNextRefreshTime."-->";
       //}
     }
     
@@ -140,6 +142,11 @@ class Server
     /* class Bool */ $bRes = true;
     //...
     return $bRes;
+  }
+  
+  public function /* String */ GetNextRefreshTimePub()
+  {
+    return $this->sNextRefreshTime;
   }
   
   private function /* class String */ GetMenuBlock(/* class Permission */ $pPerm)

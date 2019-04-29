@@ -44,6 +44,7 @@ class ShowPage
 	    "id" => $iIdNew
 	  , "user_id" => $iUID
 	  , "user_nm" => $sUNm
+	  , "next_time_refresh" => $aContentNew["NextRefreshTime"]
 	);
 	/* class Template */ $tHeaderTpl = new Template($mlHTML, null, _HEADER_TPL_FILE);
 	$sHeader = $tHeaderTpl->GetStdBlock($aHeader);

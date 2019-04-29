@@ -1,8 +1,12 @@
 ﻿<?php
+
+$INC_DIR = $_SERVER["DOCUMENT_ROOT"]."\\dev2.5\\inc\\";
+
 include_once("algo.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/inc/math.inc.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/inc/math.inc.php");
+include_once($INC_DIR."math.inc.php");
 //include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/stochastic.inc.php");
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/stochastic.class.php");
+include_once("stochastic.class.php");
 
 class Set extends Algo
 {

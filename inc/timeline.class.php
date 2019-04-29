@@ -1,5 +1,6 @@
 ﻿<?php
-include_once("C:/Program Files/wamp/www/dev2.5/algo/inc/stochastic.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.5/algo/inc/stochastic.class.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."\\algo\\inc\\stochastic.class.php");
 
 class TimelineNode
 {

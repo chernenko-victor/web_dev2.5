@@ -1,5 +1,6 @@
 ﻿<?php
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/set.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/set.class.php");
+include_once("./inc/set.class.php");
 
 /*
 $aDistanceStepPitch1 = array 

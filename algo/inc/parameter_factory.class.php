@@ -1,5 +1,6 @@
 <?php
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/stochastic.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/stochastic.class.php");
+include_once("stochastic.class.php");
 
 class ParameterFactory
 {

@@ -4,7 +4,8 @@
 include_once("../inc/util.class.php");
 include_once("../inc/XML2Assoc.class.php");
 //include_once("./inc/rnd.class.php");
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/rnd_rythm.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/rnd_rythm.class.php");
+include_once("./inc/rnd_rythm.class.php");
 
 $uUtil = new Util();
 

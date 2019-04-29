@@ -1,6 +1,7 @@
 <?php
 //group_change.class.php
 
+/*
 include_once("C:/Program Files/wamp/www/dev2.5/inc/markup_language.class.php");
 include_once("C:/Program Files/wamp/www/dev2.5/inc/XML2Assoc.class.php");
 include_once("C:/Program Files/wamp/www/dev2.5/inc/template.class.php");
@@ -8,6 +9,15 @@ include_once("C:/Program Files/wamp/www/dev2.5/inc/file.class.php");
 include_once("C:/Program Files/wamp/www/dev2.5/inc/config.inc.php");
 include_once("C:/Program Files/wamp/www/dev2.5/inc/util.class.php");
 include_once("C:/Program Files/wamp/www/dev2.5/inc/storage.class.php");
+*/
+$INC_DIR = $_SERVER["DOCUMENT_ROOT"]."\\dev2.5\\inc\\";
+include_once($INC_DIR."markup_language.class.php");
+include_once($INC_DIR."XML2Assoc.class.php");
+include_once($INC_DIR."template.class.php");
+include_once($INC_DIR."file.class.php");
+include_once($INC_DIR."config.inc.php");
+include_once($INC_DIR."util.class.php");
+include_once($INC_DIR."storage.class.php");
 
 //include_once("C:/Program Files/wamp/www/dev2.5/inc/storage.class.php");
 

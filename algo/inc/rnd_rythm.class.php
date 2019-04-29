@@ -1,5 +1,6 @@
 ﻿<?php
-include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/rnd.class.php");
+//include_once("C:/Program Files/wamp/www/dev2.3/algo/inc/rnd.class.php");
+include_once("rnd.class.php");
 
 class RndRythm extends Rnd
 {
